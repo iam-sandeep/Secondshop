@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="disabled_color">#f5000000</color>
+    <color name="enabled_color">#0106a5</color>
+    <color name="background_material_lights">#e8eaf6</color>
+    <color name="darker_gray2">#263238</color>
+    <color name="text_color_primary">#f5000000</color>
+    <color name="darkergreeny">#00897b</color>
+    <color name="camouflage">#6e7f69</color>
+</resources>

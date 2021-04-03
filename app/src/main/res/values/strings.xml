@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Second Shop</string>
+    <string name="sellButton">Sell something</string>
+    <string name="buyButton">Buy</string>
+    <string name="cameraButton">Sell</string>
+    <string name="homeButton">Home</string>
+    <string name="browseButton">Browse</string>
+    <string name="welcomeText">Grab the deals while they last!</string>
+    <string name="ratingText">Rate this app:</string>
+    <string name="homeMenu">Home</string>
+    <string name="sellMenu">Sell your items</string>
+    <string name="browseMenu">Browse items for sale</string>
+    <string name="title_activity_browse">Browse</string>
+    <string name="title_activity_sell">Sell</string>
+    <string name="advertTitle">Title:</string>
+    <string name="advertPrice">Price:</string>
+    <string name="productPrice">Price:</string>
+    <string name="euroSign">Rs</string>
+    <string name="priceManualHint">Or enter manually</string>
+    <string name="advertLocation">Country:</string>
+    <string name="advertDetails">Details:</string>
+    <string name="advertImage">productImage</string>
+    <string name="submitButton">Submit</string>
+    <string name="photoButton">Add Photo</string>
+    <string name="row_image_contentDesc">productImage</string>
+    <string name="browseEmptyDefaultText">No adverts yet.\nAdd new adverts by using SELL menu to see them displayed here!</string>
+    <string-array name="locations">
+
+    </string-array>
+    <string-array name="clothingSizes">
+        <item> Large</item>
+        <item> Small</item>
+        <item> Medium</item>
+
+    </string-array>
+    <string name="title_activity_advert_clothing">Sell clothes</string>
+    <string name="title_activity_advert_fashion">Sell fashion</string>
+    <string name="advertType">Type:</string>
+    <string name="advertSize">Size:</string>
+    <string name="clothing_radioButton">Clothing</string>
+    <string name="shoes_radioButton">Shoes</string>
+    <string name="generalAd_radioB">General</string>
+    <string name="fashionAd_radioB">Fashion</string>
+    <string name="carAd_radioB">Car</string>
+    <string name="title_activity_advert_car">Sell cars</string>
+    <string name="advertMake">Name:</string>
+    <string name="advertModel">Model:</string>
+    <string name="advertYear">Year:</string>
+    <string name="emptyAdvertsCategory">No adverts in this category.</string>
+    <string name="user_registration">User Registration</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_username">Create a username</string>
+    <string name="enter_password">Choose a password</string>
+    <string name="user_login">User Login</string>
+    <string name="button_login">Log in</string>
+    <string name="button_register">Sign me up!</string>
+    <string name="logout">Log out</string>
+    <string name="githubTextView">Visit my GitHub page:</string>
+    <string name="reset">Delete all ads</string>
+    <string-array name="carMakes">
+        <item> TaTa </item>
+        <item>Audi</item>
+        <item>Mercidies</item>
+        <item>Ferarie</item>
+        <item>Hunday</item>
+        <item>Suzuki</item>
+        <item>Rang Rover</item>
+        <item>Volvo</item>
+
+
+    </string-array>
+    <string-array name="country">
+        <item > Nepal </item>
+
+    </string-array>
+    <string name="title_activity_view_advert">Advert View</string>
+    <string name="buttonUpdate">UPDATE</string>
+    <string name="buttonDelete">DELETE</string>
+    <string name="title_activity_view_advert_fashion">Fashion Advert View</string>
+    <string name="buttonSave">SAVE</string>
+    <string name="searchText">Search here</string>
+    <string name="googleButton">Log in with Google</string>
+    <string name="enter_county">Enter country</string>
+    <string name="advertCounty">Location:</string>
+    <string name="title_activity_view_advert_car">Car Advert View</string>
+    <string name="loading_advert_data">Loading data..&#8230;</string>
+    <string name="browse_sections">BROWSE SECTIONS:</string>
+
+
+</resources>

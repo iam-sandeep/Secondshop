@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ie.bask.niftysecondhandshop.activities.MainActivity">
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/logout"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/homeMenu"
+        android:orderInCategory="100"
+        android:title="@string/homeMenu"
+        android:onClick="home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sellMenu"
+        android:orderInCategory="100"
+        android:title="@string/sellMenu"
+        android:onClick="sell"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/browseMenu"
+        android:orderInCategory="100"
+        android:title="@string/browseMenu"
+        android:onClick="browse"
+        app:showAsAction="never" />
+
+
+</menu>

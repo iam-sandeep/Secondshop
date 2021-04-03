@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="shopesecond.com.shopesecond.activities.BrowseActivity"
+    tools:showIn="@layout/activity_browse">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/bottom_menu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/EditTextSearch"
+        android:layout_width="331dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/searchText"
+        android:inputType="text"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="#999999"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/searchButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/roundcorners"
+        android:backgroundTint="#cd18abb8"
+        android:contentDescription="@string/row_image_contentDesc"
+        android:src="@drawable/ic_search"
+        app:layout_constraintBottom_toBottomOf="@+id/EditTextSearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/EditTextSearch"
+        app:layout_constraintTop_toTopOf="@+id/EditTextSearch" />
+
+    <TextView
+        android:id="@+id/filler"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/choice_radio_group" />
+
+    <TextView
+        android:id="@+id/lvTitle"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/advertTitle"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/filler"
+        app:layout_constraintTop_toBottomOf="@id/choice_radio_group" />
+
+    <TextView
+        android:id="@+id/lvPrice"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:text="@string/productPrice"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/lvTitle"
+        app:layout_constraintTop_toBottomOf="@id/choice_radio_group" />
+
+    <TextView
+        android:id="@+id/lvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/advertLocation"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/lvPrice"
+        app:layout_constraintTop_toBottomOf="@id/choice_radio_group" />
+
+    <TextView
+        android:id="@+id/lvMake"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="@string/advertMake"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/filler"
+        app:layout_constraintTop_toBottomOf="@id/choice_radio_group" />
+
+    <TextView
+        android:id="@+id/lvModel"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:text="@string/advertModel"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/lvMake"
+        app:layout_constraintTop_toBottomOf="@id/choice_radio_group" />
+
+    <TextView
+        android:id="@+id/lvYear"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/advertYear"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/lvModel"
+        app:layout_constraintTop_toBottomOf="@id/choice_radio_group" />
+
+    <TextView
+        android:id="@+id/lvCarPrice"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/productPrice"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/lvYear"
+        app:layout_constraintTop_toBottomOf="@id/choice_radio_group" />
+
+
+    <ListView
+        android:id="@+id/productsView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:choiceMode="singleChoice"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filler" />
+
+    <ListView
+        android:id="@+id/fashionProductsView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filler" />
+
+    <ListView
+        android:id="@+id/carsView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filler" />
+
+    <TextView
+        android:id="@+id/browseEmptyDefaultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:lineSpacingExtra="10sp"
+        android:text="@string/browseEmptyDefaultText"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/emptyAdvertCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:lineSpacingExtra="10sp"
+        android:text="@string/emptyAdvertsCategory"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <RadioGroup
+        android:id="@+id/choice_radio_group"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextSearch">
+
+        <RadioButton
+            android:id="@+id/advert_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/generalAd_radioB"
+            android:layout_marginBottom="10dp" />
+
+        <RadioButton
+            android:id="@+id/fashionAd_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fashionAd_radioB"
+            android:layout_marginBottom="10dp" />
+
+        <RadioButton
+            android:id="@+id/carAd_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/carAd_radioB"
+            android:layout_marginBottom="10dp" />
+    </RadioGroup>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "416348241696",
+    "firebase_url": "https://shop-second.firebaseio.com",
+    "project_id": "shop-second",
+    "storage_bucket": "shop-second.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416348241696:android:185151c8091b1c3a",
+        "android_client_info": {
+          "package_name": "shopesecond.com.shopesecond"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416348241696-o3a23ik43imtmqov4ulakcdujmfuubl8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shopesecond.com.shopesecond",
+            "certificate_hash": "0d0bb90f4540bd19ec1c5c103edb8aa377f12cf5"
+          }
+        },
+        {
+          "client_id": "416348241696-u57d7kvap5g928uj143q5834sp61qudk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdbgRL44QYgMxaQ3B7QyH-xPOy7VZzkBQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416348241696-u57d7kvap5g928uj143q5834sp61qudk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

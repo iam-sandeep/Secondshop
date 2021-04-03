@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="shopesecond.com.shopesecond.activities.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/user_login"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="@string/enter_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:text="Remember Me"
+             />
+        <Button
+            android:id="@+id/buttonLogin"
+
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/roundcorners"
+            android:backgroundTint="#cd6ea916"
+            android:text="@string/button_login"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonGoogle"
+
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/roundcorners"
+            android:backgroundTint="#cd6ea916"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_google"
+            android:paddingStart="10dp"
+            android:text="@string/googleButton"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/roundcorners"
+
+            android:backgroundTint="#cd6ea916"
+            android:text="@string/button_register"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
